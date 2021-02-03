@@ -34,7 +34,7 @@
   <input type="text" name="name2" id="input2Name">
   <input type="submit" value="SubmitPost"> -->
 <!-- </form> --> 
-<!-- <?php 
+ <?php 
 //tutorialrepublic.com/php-tutorial play
 // if(isset($_GET["name"])){
 //    echo "<p>Hi, " .$_GET["name"] . " This is get method.</p>";
@@ -46,18 +46,18 @@
 //    echo "<p>Hi, " .$_REQUEST["name2"] . " This is post method.</p>";
 // }
 
-// echo date('h:i:s') ."<br>";// 04:18:20 4 pm
-// // echo date('H:I:s')."<br>";// 16:19:3316:0:33 ???
-// echo date("F d, Y h:i:s A")."<br>";//February 02, 2021 11:51:04 AM
-// echo date("h:i a")."<br>";//11:52 am
+ echo date('h:i:s') ."<br>";// 04:18:20 4 pm
+// echo date('H:I:s')."<br>";// 16:19:3316:0:33 ???
+ echo date("F d, Y h:i:s A")."<br>";//February 02, 2021 11:51:04 AM
+ echo date("h:i a")."<br>";//11:52 am
 //$timestamp = time();
 //echo (date('F d, Y, h:i:s', $timestamp)) ."<br>";//February 02, 2021, 11:54:42
-// echo mktime(14, 30, 5, 3, 17, 1973) ."<br>";//some nums 1012230005
-// echo date('l', mktime(0,0,0,3,17,1973));// Saturday\
+ echo mktime(14, 30, 5, 3, 17, 1973) ."<br>";//some nums 1012230005
+ echo date('l', mktime(0,0,0,3,17,1973));// Saturday\
 //$mybd = mktime(14,30,30,03,17,1973);
 //echo $mybd; //101223030
-// $mytimestamp = mktime(14,30,30,03,17,1973);
-// echo (date('F d - Y - h:i a', $mytimestamp)) ."<br>";
+ $mytimestamp = mktime(14,30,30,03,17,1973);
+ echo (date('F d - Y - h:i a', $mytimestamp)) ."<br>";
 
 // $pattern = "/\s/";// all small chars?
 // $replacement = "-";
